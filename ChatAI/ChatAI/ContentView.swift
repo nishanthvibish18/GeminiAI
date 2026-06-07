@@ -31,7 +31,7 @@ struct ContentView: View {
                 }
                 
                 HStack(content: {
-                    TextField(" Enter a message", text: $textInput)
+                    TextField("Enter a message", text: $textInput)
                         .foregroundStyle(Color.black)
                         .textFieldStyle(.roundedBorder)
                     
